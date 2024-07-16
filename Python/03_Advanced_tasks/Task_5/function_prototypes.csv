@@ -1,0 +1,6 @@
+Function Prototype,Service ID Value
+void Port_Init(const Port_ConfigType* ConfigPtr),ID[hex]: 0x00
+"void Port_SetPinDirection(Port_PinType Pin, Port_PinDirectionType Direction)",ID[hex]: 0x01
+void Port_RefreshPortDirection(void),ID[hex]: 0x02
+void Port_GetVersionInfo(Std_VersionInfoType* versioninfo),ID[hex]: 0x03
+"void Port_SetPinMode(Port_PinType Pin, Port_PinModeType Mode)",ID[hex]: 0x04
